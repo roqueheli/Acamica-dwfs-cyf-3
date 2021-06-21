@@ -7,6 +7,11 @@
 	margin: 0;
 }
 
+
+html {
+	scroll-behavior: smooth;
+}
+
 /* HEADER MENU MOBILE */
 header {
 	height: 3em;

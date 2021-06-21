@@ -1,13 +1,5 @@
 /* MOBILE */
 @media screen and (max-width: 767px) {
-	.nav-menu {
-		overflow: hidden;
-	}
-
-	.nav-menu li {
-		width: 100vw;
-	}
-
 	.nav-menu-ul {
 		transform: translateX(100%);
 		transition: all 0.4s ease;
@@ -16,6 +8,14 @@
 
 	.tittle .desktop-desc {
 		display: none;
+	}
+
+	.nav-menu {
+		overflow: hidden;
+	}
+	
+	.nav-menu li {
+		width: 100vw;
 	}
 
 	.tittle .button-1 {
@@ -27,6 +27,7 @@
 	}
 }
 
+	
 /* DESKTOP */
 @media screen and (min-width: 768px) {
 	/* HEADER */

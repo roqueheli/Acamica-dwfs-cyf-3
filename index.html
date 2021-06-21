@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <script src="https://kit.fontawesome.com/81670265ac.js" crossorigin="anonymous"></script>
   <title>Podcast Channel - Roqueheli Arenas</title>
 </head>
+
 <body>
   <header>
     <img src="./resources/icons/logo-icon.svg" alt="Imagen no disponible" class="icon-class">
@@ -29,7 +31,7 @@
   </header>
   <main>
     <section class="tittle">
-      <h1>Hello <strike>world</strike> pale blue dot <span>.</span></h1>
+      <h1>Hello <span id="world-strike">world</span> pale blue dot <span>.</span></h1>
       <p class="mobile-desc">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada
         15 días.</p>
       <p class="desktop-desc">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos
@@ -77,29 +79,27 @@
     <section id="topics">
       <h1>Algunos de nuestros temas</h1>
       <div class="topics-icons">
-        <article>
+        <h3>
           <img src="./resources/icons/remote.svg" alt="">
           <p>Trabajo remoto</p>
-        </article>
-        <article>
+        </h3>
+        <h3>
           <img src="./resources/icons/thinking.svg" alt="">
           <p>Repensando la programación</p>
-        </article>
-        <article>
+        </h3>
+        <h3>
           <img src="./resources/icons/computer.svg" alt="">
           <p>Bases del código</p>
-        </article>
-        <article>
+        </h3>
+        <h3>
           <img src="./resources/icons/spider.svg" alt="">
           <p>Seguridad informática</p>
-        </article>
+        </h3>
       </div>
     </section>
     <section class="news-polygon">
       <h1>¿Querés las últimas novedades?</h1>
-      <button onclick="location.href='#episodes'">
-        <p>ESCUCHÁ LOS EPISODIOS</p>
-      </button>
+      <button onclick="location.href='#episodes'">ESCUCHÁ LOS EPISODIOS</button>
     </section>
   </main>
   <footer class="footer-mobile">
@@ -113,4 +113,5 @@
     </div>
   </footer>
 </body>
+
 </html>

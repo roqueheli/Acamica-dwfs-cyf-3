@@ -294,7 +294,7 @@ header {
 	width: 6em;
 }
 
-#topics .topics-icons p {
+#topics .topics-icons span {
 	font-family: "IBM Plex Sans";
 	font-size: 24px;
 	font-weight: 500;
